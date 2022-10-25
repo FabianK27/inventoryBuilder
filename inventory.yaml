@@ -1,0 +1,20 @@
+cloudsandboxes:
+	children:
+		ash:
+			hosts:
+				ash-sb1:
+					ansible_host: 1.2.3.4
+				ash-sb2:
+					ansible_host: 5.6.7.8
+		ada:
+			hosts:
+				ada-sb1:
+					ansible_host: 9.10.11.12
+		luna:
+			hosts:
+				luna-sb1:
+					ansible_host: 13.14.15.16
+				luna-sb2:
+					ansible_host: 17.18.19.20
+				luna-sb3:
+					ansible_host: 21.22.23.24
